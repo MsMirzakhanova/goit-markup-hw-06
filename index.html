@@ -390,6 +390,21 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="footer-subtitle">Подпишитесь на рассылку</p>
+          <form>
+            <div class="email-form">
+              <input type="email" name="E-mail" id="E-mail" class="email-input" />
+              <label for="E-mail" class="email-label">E-mail</label>
+              <button type="submit" class="btn-form">
+                Подписаться
+                <svg class="sign-icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Backdrop -->
@@ -400,6 +415,30 @@
             <use href="./images/symbol-defs.svg#button-close"></use>
           </svg>
         </button>
+        <form class="application-form">
+          <strong class="application-title">Оставьте свои данные, мы вам перезвоним</strong>
+          <label class="label">
+            <span>Имя</span>
+            <input type="text" name="user-name" />
+          </label>
+          <label>
+            <span>Телефон</span>
+            <input type="tel" name="user-phone" />
+          </label>
+          <label>
+            <span>Почта</span>
+            <input type="email" name="user-email" />
+          </label>
+          <label>
+            <span>Комментарий</span>
+            <textarea name="user-message" rows="5" placeholder="Введите текст"></textarea>
+          </label>
+          <label>
+            <input type="checkbox" name="policy" checked />
+            <span>Соглашаюсь с рассылкой и принимаю Условия договора</span>
+          </label>
+          <button type="submit" class="application-btn">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
