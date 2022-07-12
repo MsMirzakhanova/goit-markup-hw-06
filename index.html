@@ -417,40 +417,33 @@
         </button>
         <form class="application-form">
           <strong class="application-title">Оставьте свои данные, мы вам перезвоним</strong>
-          <label class="application-label">
+          <label class="application-input">
             <span>Имя</span>
-            <div class="application-input">
-              <input type="text" name="user-name" class="application-form-field" />
-              <svg class="application-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#person"></use>
-              </svg>
-            </div>
+            <input type="text" name="user-name" class="application-form-field" />
+            <svg class="application-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#person"></use>
+            </svg>
           </label>
-          <label>
+          <label class="application-input">
             <span>Телефон</span>
-            <div class="application-input">
-              <input type="tel" name="user-phone" class="application-form-field" />
-              <svg class="application-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#phone"></use>
-              </svg>
-            </div>
+            <input type="tel" name="user-phone" class="application-form-field" />
+            <svg class="application-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#phone"></use>
+            </svg>
           </label>
-          <label>
+          <label class="application-input">
             <span>Почта</span>
-            <div class="application-input">
-              <input class="application-form-field" type="email" name="user-email" />
-              <svg class="application-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#email"></use>
-              </svg>
-            </div>
+            <input class="application-form-field" type="email" name="user-email" />
+            <svg class="application-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#email"></use>
+            </svg>
           </label>
           <label>
             <span>Комментарий</span>
             <textarea
-              name="user-message"
-              rows="5"
-              placeholder="Введите текст"
               class="application-form-comment"
+              name="user-message"
+              placeholder="Введите текст"
             ></textarea>
           </label>
           <label class="form-checkbox">
@@ -467,7 +460,7 @@
             </span>
             <span class="form-checkbox-agreement"
               >Соглашаюсь с рассылкой и принимаю
-              <a href="http://" class="agreement-link">Условия договора</a>
+              <a href="" class="agreement-link">Условия договора</a>
             </span>
           </label>
           <button type="submit" class="application-btn">Отправить</button>
